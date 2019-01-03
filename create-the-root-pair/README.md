@@ -269,3 +269,6 @@ X509v3 extensions:
     X509v3 Key Usage: critical
         Digital Signature, Certificate Sign, CRL Sign
 ```
+
+| [Previous](../introduction/README.md) | [Next](../create-the-intermediate-certificate/README.md) |
+| :------------------------------------ | -------------------------------------------------------: |

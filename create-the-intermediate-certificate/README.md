@@ -113,3 +113,6 @@ To create the CA certificate chain, concatenate the intermediate and root certif
 # chmod 444 intermediate/certs/ca-chain.cert.pem
 ```
 > Note: Our certificate chain file must include the root certificate because no client application knows about it yet. A better option, particularly if you’re administrating an intranet, is to install your root certificate on every client that needs to connect. In that case, the chain file need only contain your intermediate certificate.
+
+| [Previous](../create-the-root-pair/README.md) | [Next](../sign-server-and-client-certificates/README.md) |
+| :-------------------------------------------- | -------------------------------------------------------: |

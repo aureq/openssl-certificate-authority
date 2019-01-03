@@ -108,3 +108,6 @@ You can now either deploy your new certificate to a server, or distribute the ce
 - `ca-chain.cert.pem`
 - `www.example.com.key.pem`
 - `www.example.com.cert.pem`
+
+| [Previous](../create-the-intermediate-certificate/README.md) | [Next](../certificate-revocation-lists/README.md) |
+| :----------------------------------------------------------- | ------------------------------------------------: |
