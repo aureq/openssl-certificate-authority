@@ -35,7 +35,7 @@ policy          = policy_loose
 + 'subjectAltName' in [ server_cert ]
 + [alt_names]
 DNS.1 = www.example.com
-'''
+```
 
 ## Create the intermediate key
 Create the intermediate key (`intermediate.key.pem`). Encrypt the intermediate key with AES 256-bit encryption and a strong password.
