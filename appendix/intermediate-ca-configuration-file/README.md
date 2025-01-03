@@ -119,6 +119,10 @@ subjectKeyIdentifier = hash
 authorityKeyIdentifier = keyid,issuer:always
 keyUsage = critical, digitalSignature, keyEncipherment
 extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = www.example.com
 
 [ crl_ext ]
 # Extension for CRLs (`man x509v3_config`).
